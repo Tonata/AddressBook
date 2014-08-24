@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:background="#ff2575ff">
+
+    <TextView
+            android:layout_width="252dp"
+            android:layout_height="52dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Address Book"
+            android:id="@+id/textView" android:layout_x="76dp" android:layout_y="166dp" android:textSize="35dp"/>
+    <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="248dp"
+            android:layout_height="wrap_content"
+            android:text="Proceed to Contacts"
+            android:id="@+id/btnProceed" android:layout_x="73dp" android:layout_y="339dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/txtMsg" android:layout_x="135dp" android:layout_y="243dp"/>
+</AbsoluteLayout>

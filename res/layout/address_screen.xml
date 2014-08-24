@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ListView
+            android:layout_width="315dp"
+            android:layout_height="382dp"
+            android:id="@+id/contactView" android:layout_x="30dp" android:layout_y="118dp"
+            android:choiceMode="singleChoice"
+            android:longClickable="true" android:background="#ce276fc7"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add New"
+            android:id="@+id/btnAdd" android:layout_x="242dp" android:layout_y="58dp"/>
+    <TextView
+            android:layout_width="175dp"
+            android:layout_height="45dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="CONTACT LIST"
+            android:id="@+id/textView" android:layout_x="108dp" android:layout_y="4dp"/>
+</AbsoluteLayout>
